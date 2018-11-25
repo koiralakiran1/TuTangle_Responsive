@@ -74,20 +74,23 @@ aside h4 {
 }
 section .profile_image_container {
   /* margin-right: 1.9305%; */
-  width: 14.1500%
+  width: 70px;
+  height: 70px;
 }
 section .entry_update_information_container {
-  width: auto;
-  margin-left: 1.9305%;
+  width: 80%;
+  margin-left: 1.5%;
 }
 /* Media Queries Part*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1055px) {
   .top_header_inner {
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
+    font-size: 1.2em;
   }
   .nav_inner {
+    font-size: 1em;;
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
@@ -96,30 +99,34 @@ section .entry_update_information_container {
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
+    font-size: 1.1em;
   }
   .footer_inner {
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
   }
+  footer {
+    font-size: 0.70em;
+  }
 }
-
 @media only screen and (max-width: 805px) {
+  .jumbo_container {
+    overflow: hidden;
+  }
   .main_content_container_inner {
     background: none;
   }
   .top_header_left {
     float: none;
-    width: 53%;
+    width: 98%;
     margin: 0 auto;
     text-align: center;
   }
   .top_header_right {
     float: none;
-    width: 53%;
-    padding-right: -30px;
+    width: 98%;
     margin: 0 auto;
-    text-align: center;
   }
   .top_header_left form {
     clear: both;
@@ -130,14 +137,13 @@ section .entry_update_information_container {
   }
   .top_header_left img {
     float: none;
-    width: 53%;
+    width: auto;
     margin: auto;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   .top_header_right span {
     float: right;
-    margin-right: -17px;
     font-size: 1em;
     font-weight: bold;
     margin-top: 5px;
@@ -151,8 +157,142 @@ section .entry_update_information_container {
   .top_header_right ul li {
     font-size: 1em;
   }
-  aside {
+  aside, .left_side_panel, .right_side_panel {
     float: none;
     display: none;
+  }
+  nav {
+    width: 100%;
+    overflow: hidden;
+  }
+  nav .nav_user_actions {
+    display: none;
+  }
+  nav .nav_inner {
+    float: none;
+    width: 93.0434%;
+    margin: auto;
+  }
+  nav .nav_user_notifications {
+    font-size: 1em;
+    float: left;
+  }
+  nav a.menu_hamburger_icon_container {
+    float: right;
+    display: block;
+    padding: 11px 0px 11px 15px;
+    background-position: left;
+    font-weight: bolder;
+  }
+  nav a.menu_hamburger_icon_container:hover {
+    cursor: pointer;
+  }
+  nav .nav_user_notifications li {
+    margin-left: 0px;
+    margin-right: 23px;
+  }
+  footer .footer_inner {
+    width: 93.0434%;
+    margin: auto;
+  }
+  .mid_content_container {
+    width: 100%;
+  }
+  .col3_left_big {
+    float: none;
+    width: 100%;
+  }
+  .main_content_container_inner {
+    width: 93.0434%;
+    margin: auto;
+    float: none;
+  }
+  .mid_content_panel {
+    width: 100%;
+    margin: auto;
+    font-size: 17px;
+  }
+  .top_header_left input {
+    width: 50%;
+    height: auto;
+    background-size: 100% 100%;
+    font-size: 0.7em;
+  }
+  .top_header_left button {
+    width: 9%;
+    min-width: 56px;
+    height: auto;
+    background-size: 100% 100%;
+    font-size: 0.7em;
+  }
+  .main_content_container {
+    padding: 5px 0px;
+  }
+  .main_content_container ul li .profile_image_container {
+    width: 70px;
+    height: auto;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: normal;
+    font-size: 0.75em;
+  }
+  footer ul {
+    float: none;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  footer p {
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+
+  nav a.menu_hamburger_icon_container span {
+    display: none;
+  }
+  nav a.menu_hamburger_icon_container {
+    background-size: 150%;
+    background-position: bottom;
+    margin-top: 2px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  header {
+    font-size: 12px;
+  }
+  nav {
+    font-size: 12px;
+  }
+  section .entry_update_information_container {
+    width: 75%;
+    height: auto;
+    margin-left: 2%;
+  }
+  .mid_content_panel .mid_container_tabs_group {
+    font-size: 15px;
+  }
+  .mid_content_panel section {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  footer {
+    font-size: 10px;
+  }
+  footer li {
+    background: none;
+  }
+  .mid_content_panel .mid_container_tabs_group {
+    font-size: 14px;
   }
 }

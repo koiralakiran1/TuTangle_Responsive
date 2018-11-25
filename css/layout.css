@@ -7,7 +7,7 @@ a {
 }
 /*BEGIN: Header Section*/
 .jumbo_container {
-  font-size: 1rem;
+  font-size: 1em;
 }
 .top_header {
   background-color: #7dd9e8;
@@ -33,11 +33,11 @@ a {
 }
 .nav_user_actions {
   float: left;
-  font-size: 0.875rem; /*14px*/
+  font-size: 0.875em; /*14px*/
 }
 .nav_user_notifications {
   float: right;
-  font-size: 0.75rem;/*12px*/
+  font-size: 0.75em;/*12px*/
 }
 .topic_box_invites {
   margin-right: 23px;
@@ -144,7 +144,7 @@ ul.mid_container_main>li {
 }
 section .profile_image_container {
   float: left;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 section .entry_update_information_container {
   width: 438px;
