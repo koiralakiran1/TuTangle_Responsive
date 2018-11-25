@@ -148,7 +148,7 @@ section .profile_image_container {
 }
 section .entry_update_information_container {
   width: 438px;
-  float: right;
+  float: left;
 }
 /*END: Main Content or Body Section*/
 /*BEGIN: Footer Section*/
