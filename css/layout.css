@@ -62,6 +62,7 @@ a {
 .main_content_container_inner {
   background: url("../images/background_strip.png");
   background-repeat: repeat-y;
+  background-size: 100% 100%;
   /* width: 938px; */
   /* margin: auto; */
 }
@@ -89,6 +90,7 @@ a {
   float: left;
   background: url("../images/big_tab_grey.png") no-repeat;
   width: 258px;
+  background-size: 100% 100%;
   text-align: center;
   /* height: 65px; */
 }
@@ -97,12 +99,14 @@ a {
   /* height: 65px; */
   background: url("../images/big_tab_grey_right.png") no-repeat;
   width: 258px;
+  background-size: 100% 100%;
   text-align: center;
 }
 .big_tab_left_small_tabs_groups .big_tab_left_small_tab_left,
 .big_tab_right_small_tabs_groups .big_tab_right_small_tab_left {
   float: left;
   background: url("../images/tab_grey.png") no-repeat;
+  background-size: 100% 100%;
   margin-left: 10px;
   margin-top: 6px;
   width: 114px;
@@ -116,6 +120,7 @@ a {
   width: 114px;
   line-height: 28px;
   background: url("../images/tab_grey.png") no-repeat;
+  background-size: 100% 100%;
 }
 .big_tab_left_small_tabs_groups .big_tab_left_small_tab_right:hover,
 .big_tab_right_small_tabs_groups .big_tab_right_small_tab_right:hover,
@@ -123,10 +128,12 @@ a {
 .big_tab_right_small_tabs_groups .big_tab_right_small_tab_left:hover {
   background: url("../images/tab_blue.png") no-repeat;
   color: white;
+  background-size: 100% 100%;
   cursor: pointer;
 }
 .mid_container_tabs_group .active {
   background: url("../images/tab_blue.png") no-repeat;
+  background-size: 100% 100%;
   color: white;
 }
 ul.mid_container_main>li {

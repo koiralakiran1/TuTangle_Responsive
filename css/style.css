@@ -27,6 +27,7 @@ button:hover{
   line-height: 20px;
   border: none;
   background: url("../images/search_bar.png") no-repeat;
+  background-size: 100% 100%;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -34,6 +35,7 @@ button:hover{
   color: white;
   font-size: 0.5625rem;/*9px;*/
   background: url("../images/search_button.png") no-repeat;
+  background-size: 100% 100%;
   line-height: 20px;
   width: 56px;
   border: none;
@@ -201,6 +203,7 @@ section .profile_image_frame {
   top: 0px;
   left: 0px;
   background: url("../images/img-frame.png") no-repeat;
+  background-size: 100% 100%;
 }
 /*END: Main Content or Body Section*/
 /*BEGIN: Footer Section*/
