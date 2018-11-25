@@ -6,6 +6,9 @@ a {
   color: black;
 }
 /*BEGIN: Header Section*/
+.jumbo_container {
+  font-size: 1rem;
+}
 .top_header {
   background-color: #7dd9e8;
   /* padding-left: 32px;
@@ -30,11 +33,11 @@ a {
 }
 .nav_user_actions {
   float: left;
-  font-size: 14px;
+  font-size: 0.875rem; /*14px*/
 }
 .nav_user_notifications {
   float: right;
-  font-size: 12px;
+  font-size: 0.75rem;/*12px*/
 }
 .topic_box_invites {
   margin-right: 23px;
